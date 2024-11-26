@@ -1,0 +1,30 @@
+nav{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0px 0px 10px grey;
+}
+nav h1{
+    color: rgb(102, 102, 102);
+}
+nav div{
+    display: flex;
+}
+nav div a{
+    text-decoration: none;
+    color:grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 10px;
+    width: 100px;
+    cursor: pointer;
+}
+nav div a:hover{
+    background-color: lightgrey;
+    color: white;
+}
+.active{
+    background-color: #ffcc6c;
+    color: white;
+}

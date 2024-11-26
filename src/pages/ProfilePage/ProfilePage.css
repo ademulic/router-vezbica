@@ -1,0 +1,24 @@
+.profile-page{
+    width: 60%;
+    height: 40vh;
+    display: flex; 
+    
+}
+.profile-page .profile-body{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 100%;
+    justify-content: space-around;
+}
+.profile-page .profile-image{
+    width: 30%;
+    height: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile-image img{
+    height: 100%;
+    object-fit: cover;
+}
